@@ -102,3 +102,30 @@ body{
         display: none;
     }
 }
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+
+.images img{
+    height: 70%;
+    
+    position: absolute;
+    left: 50%;
+    bottom: 170px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+
+
+}
+
+
+.images:hover .right{
+
+    left: 45%;
+}
